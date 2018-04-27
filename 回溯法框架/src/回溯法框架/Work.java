@@ -1,5 +1,6 @@
 package 回溯法框架;
 
+
 import java.util.Collection;
 
 import 回溯法框架.全排列.Quan;
