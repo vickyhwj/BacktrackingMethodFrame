@@ -21,6 +21,7 @@ public class Work {
 	private void dfs(Conetxt con) throws CloneNotSupportedException{
 		if(con.finsh()){
 			con.done();
+			return;
 		}
 		Collection<Decide> decides=con.getDecides();
 		for(Decide d:decides){
